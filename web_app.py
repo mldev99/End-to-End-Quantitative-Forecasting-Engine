@@ -4,6 +4,8 @@ import numpy as np
 from keras.models import load_model
 import matplotlib.pyplot as plt
 import yfinance as yf
+import requests
+from bs4 import BeautifulSoup
 
 st.title("Stock Price Predictor App")
 
